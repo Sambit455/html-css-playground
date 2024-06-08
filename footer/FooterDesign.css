@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+
+body{
+  min-height: 100vh;
+  width: 100%;
+  background:#EEECEB;
+}
+
+footer{
+  background: #140B5C;
+  position: fixed;
+  bottom: 0;
+  /* left: 0; */
+  width: 100%;
+}
+
+footer::before{
+  content: '';
+  background: #AFAFB6;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  top: 100px;
+
+}
+
+footer .content{
+  max-width: 1300px;
+  margin: auto;
+  padding: 29px 43px 78px 43px;
+}
+
+.content .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.top .logo_details{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.top .socialmedia{
+  display: flex;
+
+}
+
+.top .socialmedia a{
+    color: #fff;
+    height: 41px;
+    width: 41px;
+    font-size: 21px;
+    border-radius: 50%;
+    margin: 0px 10px;
+    text-decoration: none;
+    line-height: 41px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.top .socialmedia .fb{
+  background:#426782;
+}
+.top .socialmedia .twitter{
+  background:#1da1f2;
+}
+.top .socialmedia .insta{
+  background:#e1306c;
+}
+.top .socialmedia .linkedin{
+  background:#0077b5;
+}
+.top .socialmedia .ytube{
+  background:#ff0000;
+}
+.top .socialmedia .link:hover{
+  background: #fff;
+  color: black;
+}
+
+.content .link_section{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.link_section .box{
+  /* background: red; */
+  width: calc(100% / 5 - 20px);
+}
+
+.link_section .box .Link_name{
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  list-style: none;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.link_section .box .Link_name::before{
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 29px;
+  background: #fff;
+  bottom: 2px;
+  left: 2px;
+}
+
+.link_section .box li{
+ list-style: none;
+ margin: 6px 0px;
+}
+
+.link_section .box li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+.link_section .box li a:hover{
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.link_section .input-box{
+  margin-right: 65px;
+}
+
+.link_section .input-box input{
+  height: 30px;
+  width: calc(100% + 50px);
+  outline: none;
+  border: 2px solid #AFAFB6;
+  background: #140B5C;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 5px;
+  padding: 0px 12px;
+  margin-top: 5px;
+}
+
+.link_section .input-box input::placeholder{
+  color: #AFAFB6;
+  padding-left: 34px;
+  font-size: 19px;
+}
+
+.link_section .input-box input[type="button"]{
+  background: #fff;
+  color: #140B5C;
+  margin: 5px 0px;
+  font-size: 19px;
+  font-weight: 700;
+  border: none;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.link_section .input-box input[type="button"]:hover{
+  opacity: 1;
+}
+
+footer .buttom_details{
+  width: 100%;
+  background: #0F0844;
+}
+
+footer .buttom_details .btm_text{
+  max-width: 1250px;
+  margin: auto;
+  padding: 20px 50px;
+  /* align-items: center; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttom_details .btm_text span,
+.buttom_details .btm_text a{
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.buttom_details .btm_text a:hover{
+  text-decoration: underline;
+  opacity: 1;
+}
+
+.buttom_details .btm_text a{
+  margin-right: 12px;
+}

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav{
+  background: #1b1b1b;
+  position: fixed;
+  width: 100%;
+  padding: 12px 20px;
+  z-index: 12;
+}
+
+nav .menu{
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* max-width: 1300px; */
+  margin: auto;
+  padding: 12px 20px;
+}
+
+.menu .logo a{
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.menu ul{
+  display: inline-flex;
+}
+
+.menu ul li{
+  list-style: none;
+  padding-left: 12px;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  /* background: red; */
+  padding: 8px 15px;
+  border-radius: 4px;
+  transition:all 0.3s ease;
+}
+
+.menu ul li a:hover{
+  background: #fff;
+  color: #000;
+}
+
+.img{
+  background: url(./dslr.jpg) no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+img::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+  .center{
+  position: absolute;
+  top: 52%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  /* background-color: red; */
+  width: 100%;
+  padding: 8px 12px;
+  text-align: center;
+}
+
+.center .title{
+  font-size: 60px;
+  font-weight: 600;
+  color: white;
+}
+
+.center .sub_title{
+  color: white;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.center .btns{
+  margin-top: 20px;
+}
+
+.center .btns button{
+  height: 40px;
+  width: 102px;
+  border-radius: 5px;
+  border: none;
+  margin: 8px 10px;
+  padding: 7px 10px;
+  border: 2px solid #fff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.center .btns button:first-child{
+  background: none;
+  color: #fff;
+}
+
+.center .btns button:first-child:hover{
+  background: #fff;
+  color: #000;
+}
