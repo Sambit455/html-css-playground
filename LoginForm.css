@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+body{
+  background: #1abc9c;
+  overflow: hidden;
+}
+
+.container{
+  max-width: 440px;
+  padding:0 20px;
+  margin: 170px auto;
+}
+
+.wrapper{
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.wrapper .title{
+  line-height:100px;
+  background:#16a085 ;
+  border-radius: 5px 5px 0 0;
+  font-size:29px;
+  padding-left: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.wrapper form{
+  padding: 20px 12px 22px 16px;
+}
+
+.wrapper form .row{
+  height: 42px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.wrapper form .row input{
+  height:100%;
+  width: 100%;
+  padding-left: 60px;
+  font-size: 15px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+form .row input:focus{
+  border-color: #16a085;
+  box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
+}
+
+form .raw input::placeholder{
+  color: #999;
+}
+
+.wrapper form .row i{
+  position: absolute;
+  width: 47px;
+  height: 100%;
+  background: #16a085;
+  border: 1px solid #16a085;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px 0 0 5px;
+}
+
+.wrapper form .button input{
+  padding-left: 0;
+  background: #16a085;
+  border:1px solid #16a085;
+  cursor: pointer;
+  color: #fff;
+  font-weight:600;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+form .button input:hover{
+  background: #12876f;
+}
+
+.wrapper form .pass{
+  margin: -10px 0 15px 0;
+}
+
+.wrapper form .pass a{
+  color: #16a085;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.wrapper form .pass a:hover{
+  text-decoration: underline;
+}
+
+.wrapper form .signup-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.wrapper form .signup-link a{
+  color: #16a085;
+  text-decoration: none;
+}
+
+.wrapper form .signup-link a:hover{
+  text-decoration: underline;
+}
